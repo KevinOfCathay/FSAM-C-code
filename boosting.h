@@ -95,6 +95,8 @@ public:
 	}
 
 	void Loop() {
+		add_Spilt_Point(0, 0, 0);
+		Get_Residual();
 		for ( int step = 0; step < 10; step += 1 ) {
 			Split();
 			Get_Residual();
