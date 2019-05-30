@@ -7,3 +7,5 @@ This repository shows an example, which is coded by myself using C++, about usin
 In header file "randompoint.h", there is an function called quadratic which can be used to generate some points, and each point follows f(x) = x^2 + N(mean, sigma).
 
 To run the program, you only need to call the Loop function in "boosting.h"
+
+**Note** in order to do the splitting properly, you need to sort the data first. I skipped this procejure because the points are already in an ascent order.
